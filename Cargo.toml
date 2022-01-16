@@ -2,6 +2,13 @@
 name = "myos"
 version = "0.1.0"
 edition = "2021"
+authors = ["Yulong<baiyulong2009@hotmail.com"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
